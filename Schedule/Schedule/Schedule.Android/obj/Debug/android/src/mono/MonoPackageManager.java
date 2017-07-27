@@ -100,8 +100,11 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "Schedule.Android.dll" comes first in this list. */
 		"Schedule.Android.dll",
 		"FormsViewGroup.dll",
+		"HtmlAgilityPack.dll",
 		"Microsoft.Practices.ServiceLocation.dll",
 		"Microsoft.Practices.Unity.dll",
+		"Plugin.Connectivity.Abstractions.dll",
+		"Plugin.Connectivity.dll",
 		"Prism.dll",
 		"Prism.Forms.dll",
 		"Prism.Unity.Forms.dll",
@@ -121,5 +124,5 @@ class MonoPackageManager_Resources {
 	};
 	public static final String[] Dependencies = new String[]{
 	};
-	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_23";
+	public static final String ApiPackageName = "Mono.Android.Platform.ApiLevel_24";
 }

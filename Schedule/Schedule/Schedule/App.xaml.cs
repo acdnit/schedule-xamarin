@@ -10,7 +10,7 @@ namespace Schedule {
 
         protected override void OnInitialized() {
             InitializeComponent();
-            NavigationService.NavigateAsync("Navigation/ScheduleList");
+            NavigationService.NavigateAsync("ScheduleList");
         }
 
         protected override void RegisterTypes() {

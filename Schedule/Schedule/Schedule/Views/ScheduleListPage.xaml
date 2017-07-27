@@ -4,8 +4,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Schedule.Views.ScheduleListPage"
              Title="{Binding Title}">
-    <StackLayout>
-        <WebView WidthRequest="1000" HeightRequest="1000" Source="{Binding Url}" />
-    </StackLayout>
-    
+    <ContentPage.Content>
+        <StackLayout>
+            <WebView Source="{Binding Resource}" WidthRequest="1000" HeightRequest="1000" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>
