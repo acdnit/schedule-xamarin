@@ -1,6 +1,6 @@
 ﻿using Microsoft.Practices.Unity;
 using Prism.Unity;
-using Schedule.Servvices;
+using Schedule.Services;
 using Xamarin.Forms;
 using Schedule.Views;
 

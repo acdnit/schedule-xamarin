@@ -2,19 +2,22 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>D:\CTWassco\Source\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Plugin.Connectivity\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\CTWassco\Source\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>D:\CTWassco\Source\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Plugin.Connectivity\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Plugin.Connectivity\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj\Release\__library_projects__\Plugin.Connectivity\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Release\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Release\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Release\__library_projects__\Plugin.Connectivity\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>D:\CTWassco\Source\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Plugin.Connectivity.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\CTWassco\Source\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>D:\CTWassco\Source\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Plugin.Connectivity.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Release\__library_projects__\Plugin.Connectivity.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

@@ -11,7 +11,7 @@
 namespace Schedule {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\CTWassco\\Source\\CrossPlatform\\schedule-xamarin\\Schedule\\Schedule\\Schedule\\App." +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Source\\CTWassco\\CrossPlatform\\schedule-xamarin\\Schedule\\Schedule\\Schedule\\App." +
         "xaml")]
     public partial class App : global::Prism.Unity.PrismApplication {
         
