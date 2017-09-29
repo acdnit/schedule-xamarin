@@ -38,7 +38,7 @@ namespace Schedule.ViewModels {
             IsConnected = CrossConnectivity.Current.IsConnected;
             if (IsConnected) {
                 const string url = "https://ctn-cantho.com.vn/index.php/vi/hoat-dong/rss/Lich-lam-viec/";
-                var rss = await DependencyService.Get<IHttpClientHandler>().GetStreamFromUrl(url);
+                var rss = await DependencyService.Get<ICertificateTrust>().GetStreamFromUrl(url);
                 var docXml = XDocument.Load(rss);
                 var firstOrDefault = (from c in docXml.Descendants("channel").Elements("item") select c).FirstOrDefault();
                 var linkElement = firstOrDefault?.Element("link");
