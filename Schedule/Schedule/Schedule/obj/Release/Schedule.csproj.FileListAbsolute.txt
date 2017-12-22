@@ -85,3 +85,4 @@ D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule\obj
 D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule\obj\Release\Schedule.Views.ScheduleListPage.xaml.g.cs
 D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule\obj\Release\Schedule.dll
 D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule\obj\Release\Schedule.pdb
+D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule\obj\Release\Schedule.csprojResolveAssemblyReference.cache

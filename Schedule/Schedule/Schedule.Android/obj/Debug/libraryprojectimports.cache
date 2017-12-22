@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Paths>
-  <Jars></Jars>
+  <Jars>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jars>
   <ResolvedResourceDirectories>
     <ResolvedResourceDirectory>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Debug\__library_projects__\Plugin.Connectivity\library_project_imports\res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>D:\Source\CTWassco\CrossPlatform\schedule-xamarin\Schedule\Schedule\Schedule.Android\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>

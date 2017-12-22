@@ -47,17 +47,20 @@ namespace Schedule.ViewModels {
                     var stream = await _scheduleService.GetStreamFromUrl(link);
                     var docHtml = new HtmlDocument();
                     docHtml.Load(stream);
-                    var orDefault = (from c in docHtml.DocumentNode.Descendants("div")
-                        where c.Attributes.Contains("class") && c.Attributes["class"].Value == "bodytext"
+                    var homeText = (from c in docHtml.DocumentNode.Descendants("div")
+                        where c.Attributes.Contains("class") && c.Attributes["class"].Value.Contains("hometext")
                         select c).FirstOrDefault();
-                    if (orDefault != null) {
-                        var table = orDefault.Descendants("table").LastOrDefault();
-
+                    var bodyText = (from c in docHtml.DocumentNode.Descendants("div")
+                                    where c.Attributes.Contains("class") && c.Attributes["class"].Value.Contains("bodytext")
+                                    select c).FirstOrDefault();
+                    if (homeText != null && bodyText != null) {
                         var html = "<html><head>" +
                                    "<meta name='viewport' content='width=device-width; height=device-height; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;'/>" +
-                                   "</head><body height='100%' width='100%'><table style='width: 100%;'>";
-                        if (table != null) html += table.InnerHtml;
-                        html += "</table></body></html>";
+                                   "<style>.bodytext span { line-height: 1.5; }</style>" +
+                                   "</head><body height='100%' width='100%'>";
+                        html += "<div style='font-weight: bold; text-align: center; text-transform: uppercase; font-size: 14px; padding: 5px 0 15px;'>" + homeText.InnerHtml + "</div>";
+                        html += "<div class='bodytext'>" + bodyText.InnerHtml + "</div>";
+                        html += "</body></html>";
                         var htmlSource = new HtmlWebViewSource {Html = html};
                         Resource = htmlSource;
                     }
