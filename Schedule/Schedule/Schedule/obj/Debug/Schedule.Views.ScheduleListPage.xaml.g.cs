@@ -11,7 +11,7 @@
 namespace Schedule.Views {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\CTWassco\\Source\\CrossPlatform\\schedule-xamarin\\Schedule\\Schedule\\Schedule\\View" +
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("D:\\Source\\CTWassco\\CrossPlatform\\schedule-xamarin\\Schedule\\Schedule\\Schedule\\View" +
         "s\\ScheduleListPage.xaml")]
     public partial class ScheduleListPage : global::Xamarin.Forms.ContentPage {
         

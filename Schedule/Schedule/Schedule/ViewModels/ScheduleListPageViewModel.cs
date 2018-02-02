@@ -47,8 +47,8 @@ namespace Schedule.ViewModels {
                     var stream = await _scheduleService.GetStreamFromUrl(link);
                     var docHtml = new HtmlDocument();
                     docHtml.Load(stream);
-                    var homeText = (from c in docHtml.DocumentNode.Descendants("div")
-                        where c.Attributes.Contains("class") && c.Attributes["class"].Value.Contains("hometext")
+                    var homeText = (from c in docHtml.DocumentNode.Descendants("h1")
+                        where c.Attributes.Contains("class") && c.Attributes["class"].Value.Contains("entry-title")
                         select c).FirstOrDefault();
                     var bodyText = (from c in docHtml.DocumentNode.Descendants("div")
                                     where c.Attributes.Contains("class") && c.Attributes["class"].Value.Contains("bodytext")
